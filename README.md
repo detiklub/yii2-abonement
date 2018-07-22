@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \detiklub\abonement\AutoloadExample::widget(); ?>```
+<?= \detiklub\abonement\AbonementComponent::widget(); ?>```

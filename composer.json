@@ -1,0 +1,21 @@
+{
+    "name": "detiklub/yii2-abonement",
+    "description": "Описение расширения abonement",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","abonement"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "detiklub",
+            "email": "svoyclub@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "detiklub\\abonement\\": ""
+        }
+    }
+}

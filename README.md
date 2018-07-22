@@ -22,6 +22,21 @@ or add
 to the require section of your `composer.json` file.
 
 
+	Регистрируем компонент в файле config/main.php
+
+'components' => [
+	'message' => [
+           'class' => 'frontend\components\AbonementComponent',
+	],
+],
+
+	Вызов компонента
+	Вставляем следующую строку:
+
+<? Yii::$app->message->display('Печатаем Abonement - компонент Yii2'); ?>
+
+	На сайте отобразится 'Печатаем Abonement'. Если убираем параметр 'Печатаем Abonement' и не передаем ни какого значения в компонент, то выведется строка 'Текст по умолчанию'
+	
 Usage
 -----
 
